@@ -253,7 +253,7 @@
     position: absolute;
     bottom: 10px;
     right: 50%;
-    transform: translate(50%, 100px);
+    transform: translate(50%, 60px);
     padding: 10px 20px;
     background: var(--light-blue);
     color: #fff;
@@ -280,6 +280,10 @@
     :root {
       --container-width: 320px;
     }
+    .body{
+          overflow: hidden;;
+      }
+      
     .image-vector {
       display: none;
     }
@@ -289,4 +293,7 @@
     .email-container .filed {
       width: 300px;
     }
+      .toast{
+          transform: translate(50%, 300px);
+      }
   }
